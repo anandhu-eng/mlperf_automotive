@@ -154,9 +154,9 @@ RESULT_FIELD = {
 RESULT_FIELD_NEW = {
     "v0.5": {
         "Offline": "result_samples_per_second",
-        "SingleStream": "early_stopping_latency_ss",
+        "SingleStream": "99.90 percentile latency (ns)",
         "MultiStream": "early_stopping_latency_ms",
-        "ConstantStream": "result_completed_samples_per_sec",
+        "ConstantStream": "99.90 percentile latency (ns)",
     },
 }
 
